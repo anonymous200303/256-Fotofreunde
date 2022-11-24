@@ -5,6 +5,7 @@ body {
 	
 h1, h2, h3, h4, h5, h6 {
 	color: black;
+	color:  #000080;
 	}
 	
 .feature {
@@ -43,5 +44,15 @@ h1, h2, h3, h4, h5, h6 {
 .article-intro,
 .footer-blurb,
 .small-print {
-	text-align: center;
+	text-align: left;
+	font-size: 12pt;
+	}
+
+
+
+	p::first-letter {
+		font: size 2.8em;;
+		color: red;
+		font-weight: bold;
+		float: left;
 	}
